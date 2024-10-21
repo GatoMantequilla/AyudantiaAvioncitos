@@ -14,7 +14,7 @@ public class Persona {
 
 	//........................................................................................
 
-	String getNombre() {
+	public String getNombre() {
 		return nombre;
 	}
 
@@ -22,7 +22,7 @@ public class Persona {
 		this.nombre = nombre;
 	}
 
-	private int getEdad() {
+	public int getEdad() {
 		return edad;
 	}
 

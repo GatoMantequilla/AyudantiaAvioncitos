@@ -18,7 +18,7 @@ public class Aeropuerto {
 
 	//........................................................................................
 
-	private String getNombre() {
+	public String getNombre() {
 		return this.nombre;
 	}
 
@@ -26,7 +26,7 @@ public class Aeropuerto {
 		this.nombre = nombre;
 	}
 
-	private String getUbicacion() {
+	public String getUbicacion() {
 		return this.ubicacion;
 	}
 
@@ -34,7 +34,7 @@ public class Aeropuerto {
 		this.ubicacion = ubicacion;
 	}
 
-	List<Avion> getAviones() {
+	public List<Avion> getAviones() {
 		return this.aviones;
 	}
 

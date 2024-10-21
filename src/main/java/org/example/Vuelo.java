@@ -43,11 +43,11 @@ public class Vuelo {
 
 	//........................................................................................
 
-    Date getFechaInicio() {
+	public Date getFechaInicio() {
 		return this.fechaInicio;
 	}
 
-	String getId() {
+	public String getId() {
 		return this.id;
 	}
 

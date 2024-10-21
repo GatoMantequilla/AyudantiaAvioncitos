@@ -11,7 +11,7 @@ public class Piloto extends Persona {
 
 	//----------------------------------------------------------------------------------
 
-	private String getId() {
+	public String getId() {
 		return this.id;
 	}
 

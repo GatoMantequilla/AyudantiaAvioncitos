@@ -18,7 +18,7 @@ public class Pasaporte {
 
 	//........................................................................................
 
-	private int getIdPasaporte() {
+	public int getIdPasaporte() {
 		return this.idPasaporte;
 	}
 
@@ -26,7 +26,7 @@ public class Pasaporte {
 		this.idPasaporte = idPasaporte;
 	}
 
-	private String getNacionalidad() {
+	public String getNacionalidad() {
 		return this.nacionalidad;
 	}
 
@@ -34,7 +34,7 @@ public class Pasaporte {
 		this.nacionalidad = nacionalidad;
 	}
 
-	private int getNumeroDeHojas() {
+	public int getNumeroDeHojas() {
 		return this.numeroDeHojas;
 	}
 
@@ -42,7 +42,7 @@ public class Pasaporte {
 		this.numeroDeHojas = numeroDeHojas;
 	}
 
-	private Date getFechaDeExpiracion() {
+	public Date getFechaDeExpiracion() {
 		return this.fechaDeExpiracion;
 	}
 
